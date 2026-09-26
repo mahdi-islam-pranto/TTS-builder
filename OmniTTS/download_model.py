@@ -4,7 +4,7 @@ from huggingface_hub import snapshot_download
 
 MODEL_ID = "k2-fsa/OmniVoice"
 MODEL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "model", "OmniVoice")
-HF_TOKEN = "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"
+HF_TOKEN = ""
 
 if __name__ == "__main__":
     print(f"Downloading {MODEL_ID} to {MODEL_DIR} (~3.3 GB) ...")

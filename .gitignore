@@ -1,3 +1,4 @@
 # ignore model folder
 model/
 OmniTTS/model/
+.env
