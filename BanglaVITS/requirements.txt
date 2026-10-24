@@ -1,0 +1,6 @@
+torch
+coqui-tts[bn,codec]
+soundfile
+onnx
+onnxscript
+onnxruntime

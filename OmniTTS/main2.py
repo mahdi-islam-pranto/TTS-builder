@@ -88,7 +88,9 @@ if __name__ == "__main__":
 
     generate_bangla_audio(
             model,
-            "আজকের আবহাওয়া খুব সুন্দর, চলো আমরা বাইরে ঘুরতে যাই।",
-            "sentence2",
-            num_step=16,  # faster on CPU
+            "ধন্যবাদ",
+            # "আজকের আবহাওয়া খুব সুন্দর, চলো আমরা বাইরে ঘুরতে যাই।",
+            "sentence3",
+            # num_step=16,  # faster on CPU
+            num_step=8,  # faster on CPU
         )
