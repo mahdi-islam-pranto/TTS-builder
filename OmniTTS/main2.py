@@ -79,12 +79,12 @@ if __name__ == "__main__":
 
     # generate_bangla_audio(model, "ধন্যবাদ", "word1")
 
-    # generate_bangla_audio(
-    #     model,
-    #     "আজকের আবহাওয়া খুব সুন্দর, চলো আমরা বাইরে ঘুরতে যাই।",
-    #     "sentence2",
-    #     num_step=16,  # faster on CPU
-    # )
+    generate_bangla_audio(
+        model,
+        "আজকের আবহাওয়া খুব সুন্দর, চলো আমরা বাইরে ঘুরতে যাই।",
+        "sentence2",
+        num_step=16,  # faster on CPU
+    )
 
     generate_bangla_audio(
             model,
