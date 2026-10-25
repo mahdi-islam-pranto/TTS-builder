@@ -1,0 +1,6 @@
+piper-tts
+huggingface_hub
+soundfile
+bangla
+bnnumerizer
+bnunicodenormalizer
